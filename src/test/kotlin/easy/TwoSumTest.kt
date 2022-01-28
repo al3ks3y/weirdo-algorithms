@@ -1,4 +1,5 @@
-import Easy.TwoSum
+package easy
+
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
