@@ -10,4 +10,9 @@ class MajorityElementTest {
     fun test1() {
         assertEquals(3, majorityElement.majorityElement(intArrayOf(3, 2, 3)))
     }
+
+    @Test
+    fun test2() {
+        assertEquals(3, majorityElement.majorityElement(intArrayOf(3, 3, 3, 2, 2, 1, 3)))
+    }
 }
